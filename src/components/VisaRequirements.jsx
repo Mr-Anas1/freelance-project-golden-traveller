@@ -1,22 +1,24 @@
 import React from 'react';
+import { useParams } from 'react-router-dom';
 import visaRequirementsData from './visaRequirementsData';
+import Navbar from './Navbar';
 
-const VisaRequirements = ({ country }) => {
+const VisaRequirements = () => {
+    const { country } = useParams();
     const requirements = visaRequirementsData[country];
 
-    if (!requirements) return null;
+    if (!requirements) return <p>No visa requirements found for {country}</p>;
 
     return (
-        <div className="visa-requirements">
+        <>
+            <div className="visa-requirements">
             <h2>Visa Requirements for {country}</h2>
             <ul>
                 {Array.isArray(requirements) ? (
-                    // If requirements is an array, map over its elements
                     requirements.map((requirement, index) => (
                         <li key={index}>{requirement}</li>
                     ))
                 ) : (
-                    // If requirements is an object, iterate over its keys
                     Object.entries(requirements).map(([key, value]) => (
                         <div key={key}>
                             <h3>{key}</h3>
@@ -30,6 +32,8 @@ const VisaRequirements = ({ country }) => {
                 )}
             </ul>
         </div>
+        </>
+        
     );
 };
 

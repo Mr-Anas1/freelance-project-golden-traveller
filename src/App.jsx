@@ -1,20 +1,24 @@
-import './App.css';
-import Carousel from './components/Carousel';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Navbar from './components/Navbar';
+import HomePage from './pages/HomePage';
 import AboutUs from './pages/AboutUs';
-import Home from './pages/HomePage';
+import VisaRequirements from './components/VisaRequirements';
+import './App.css';
 
 function App() {
-	return (
-		<>
-			<div className=''>
-				<Navbar />
-				<Home />
-				<AboutUs />
-				{/* <Carousel /> */}
-			</div>
-		</>
-	);
+    return (
+        <Router>
+            <div className="">
+                <Navbar />
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/about-us" element={<AboutUs />} />
+                    <Route path="/visa-requirements/:country" element={<VisaRequirements />} />
+                </Routes>
+            </div>
+        </Router>
+    );
 }
 
 export default App;

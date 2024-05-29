@@ -13,7 +13,7 @@ function AboutUs() {
 	return (
 		<div className="about-us">
 			<div className="about-title">
-				<h2>About Us</h2>
+				<h1>About Us</h1>
 				<img
 					src={image}
 					alt="About Us"

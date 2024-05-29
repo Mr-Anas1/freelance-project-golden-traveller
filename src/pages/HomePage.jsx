@@ -1,37 +1,40 @@
 import React, { useEffect, useState } from 'react';
-import VisaRequirements from '../components/VisaRequirements';
+import { useNavigate } from 'react-router-dom';
+import Navbar from "../components/Navbar"
+import AboutUS from "./AboutUs"
+import Contact from './Contact';
 
 const Home = () => {
-	const [isShown, setIsShown] = useState(false);
-	const [selectedCountry, setSelectedCountry] = useState('');
+    const [isShown, setIsShown] = useState(false);
+    const navigate = useNavigate();
 
-	useEffect(() => {
-		setIsShown(true);
-	}, []);
+    useEffect(() => {
+        setIsShown(true);
+    }, []);
 
-	const handleCountryChange = (event) => {
-		setSelectedCountry(event.target.value);
-	};
+    const handleSelectChange = (event) => {
+        const selectedCountry = event.target.value;
+        if (selectedCountry) {
+            navigate(`/visa-requirements/${selectedCountry}`);
+        }
+    };
 
-	return (
-		<>
-			<div className={`home-container ${isShown ? 'show' : ''}`} >
-				<div className="home-left">
-					<h1>
-						Book with us and enjoy your{' '}
-						<span className="highlight">Journey!</span>
-					</h1>
-					<p>
-						Our team is always ready to give you the best travel memories in
-						your life.
-					</p>
-					<div className="emb">
-						<label htmlFor="embassies">Select Your Embassy</label>
-						<select
-							name="embassies"
-							id="embassies"
-							onChange={handleCountryChange}
-						>
+    return (
+        <>
+            <div className={`home-container ${isShown ? 'show' : ''}`}>
+                <div className="home-left">
+                    <h1>
+                        Book with us and enjoy your <span className="highlight">Journey!</span>
+                    </h1>
+                    <p>
+                        Our team is always ready to give you the best travel memories in your life.
+                    </p>
+                    <div className="emb">
+                        <label htmlFor="embassies">Select Your Embassy</label>
+                        <select name="embassies" id="embassies" onChange={handleSelectChange}>
+                            <option value="">Select your country</option>
+                            {/* List of countries */}
+                            {/* ... (same as provided earlier) */}
 							<option value="">Select your country</option>
 							<option value="Argentina">Argentina</option>
 							<option value="Australia">Australia</option>
@@ -109,20 +112,20 @@ const Home = () => {
 							<option value="Venezuela">Venezuela</option>
 							<option value="Vietnam">Vietnam</option>
 							<option value="Yemen">Yemen</option>
-						</select>
-					</div>
-				</div>
-				<div className="home-right">
-					<img
-						src="https://img.freepik.com/free-photo/portrait-woman-visiting-luxurious-city-dubai_23-2151328516.jpg"
-						alt=""
-					/>
-				</div>
-			</div>
-			{/* select country to know its requirement */}
-			<VisaRequirements country={selectedCountry} />
-		</>
-	);
+                        </select>
+                    </div>
+                </div>
+                <div className="home-right">
+                    <img
+                        src="https://img.freepik.com/free-photo/portrait-woman-visiting-luxurious-city-dubai_23-2151328516.jpg"
+                        alt=""
+                    />
+                </div>
+            </div>
+			<AboutUS />
+			<Contact />
+        </>
+    );
 };
 
 export default Home;
