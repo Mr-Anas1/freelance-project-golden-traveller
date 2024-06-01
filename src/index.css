@@ -472,3 +472,37 @@ button:hover {
 .contact-details {
 	margin-top: 40px;
 }
+
+/*! visa requirements  */
+
+.visa-requirements{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin: 0 auto;
+	width: 50%;
+	margin-bottom: 20px;
+}
+
+.visa-requirements h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+}
+
+.visa-requirements h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.visa-requirements ul {
+    padding-left: 20px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.visa-requirements li {
+    margin-bottom: 10px;
+    font-size: 16px;
+}

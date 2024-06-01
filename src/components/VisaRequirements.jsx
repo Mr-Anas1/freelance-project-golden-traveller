@@ -1,39 +1,45 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import visaRequirementsData from './visaRequirementsData';
-import Navbar from './Navbar';
 
 const VisaRequirements = () => {
     const { country } = useParams();
+    console.log("Country from URL params:", country); // Debug output
     const requirements = visaRequirementsData[country];
 
     if (!requirements) return <p>No visa requirements found for {country}</p>;
 
+    const renderRequirements = (data) => {
+        if (Array.isArray(data)) {
+            return (
+                <ul>
+                    {data.map((requirement, index) => (
+                        <li key={index}>{requirement}</li>
+                    ))}
+                </ul>
+            );
+        } else if (typeof data === 'object') {
+            return (
+                <div>
+                    {Object.entries(data).map(([key, value]) => (
+                        <div key={key}>
+                            <h3>{key.replace(/_/g, ' ')}</h3>
+                            {renderRequirements(value)}
+                        </div>
+                    ))}
+                </div>
+            );
+        }
+        return null;
+    };
+
     return (
         <>
             <div className="visa-requirements">
-            <h2>Visa Requirements for {country}</h2>
-            <ul>
-                {Array.isArray(requirements) ? (
-                    requirements.map((requirement, index) => (
-                        <li key={index}>{requirement}</li>
-                    ))
-                ) : (
-                    Object.entries(requirements).map(([key, value]) => (
-                        <div key={key}>
-                            <h3>{key}</h3>
-                            <ul>
-                                {value.map((req, index) => (
-                                    <li key={index}>{req}</li>
-                                ))}
-                            </ul>
-                        </div>
-                    ))
-                )}
-            </ul>
-        </div>
+                <h2>Visa Requirements for {country}</h2>
+                {renderRequirements(requirements)}
+            </div>
         </>
-        
     );
 };
 

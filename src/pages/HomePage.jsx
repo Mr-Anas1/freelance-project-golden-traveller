@@ -32,7 +32,6 @@ const Home = () => {
                     <div className="emb">
                         <label htmlFor="embassies">Select Your Embassy</label>
                         <select name="embassies" id="embassies" onChange={handleSelectChange}>
-                            <option value="">Select your country</option>
                             {/* List of countries */}
                             {/* ... (same as provided earlier) */}
 							<option value="">Select your country</option>
@@ -46,7 +45,7 @@ const Home = () => {
 							<option value="Brazil">Brazil</option>
 							<option value="Brunei">Brunei</option>
 							<option value="Canada">Canada</option>
-							<option value="China & HongKong">China & HongKong</option>
+							<option value="China_HongKong">China & HongKong</option>
 							<option value="Cuba">Cuba</option>
 							<option value="Cyprus">Cyprus</option>
 							<option value="Czech Republic">Czech Republic</option>
