@@ -11,7 +11,10 @@ function AboutUs() {
 	}, []);
 
 	return (
-		<div className="about-us">
+		<div
+			id="about"
+			className="about-us"
+		>
 			<div className="about-title">
 				<h1>About Us</h1>
 				<img
@@ -33,18 +36,16 @@ function AboutUs() {
 							"LIFE IS SHORT AND THE WORLD IS WIDE"
 						</div>
 					</h1>
-					<p className='about-para'>
-						Our team is always ready to give you the best travel memories in
-						your life. Our team is always ready to give you the best travel
-						memories in your life. Our team is always ready to give you the best
-						travel memories in your life.
-						memories in your life. Our team is always ready to give you the best
-						travel memories in your life.
-						memories in your life. Our team is always ready to give you the best
-						travel memories in your life.
-						memories in your life. Our team is always ready to give you the best
-						travel memories in your life.
-						memories in your life. 
+					<p className="about-para">
+						We are a one-stop solution for all your travel needs, from planning
+						your dream vacation to navigating the complexities of international
+						travel. We offer a comprehensive range of services, including visa
+						assistance, tourism packages, educational and medical consultancy
+						, travel insurance, international driving licenses,
+						hotel bookings, flight and travel ticketing, passport and photo
+						services, travel vehicle rentals, and translation services. Whether
+						you're a seasoned traveler or embarking on your first adventure
+						abroad, we're here to help you make the most of your journey.
 					</p>
 				</div>
 			</div>

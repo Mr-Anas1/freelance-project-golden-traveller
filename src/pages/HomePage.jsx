@@ -3,6 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import Navbar from "../components/Navbar"
 import AboutUS from "./AboutUs"
 import Contact from './Contact';
+import Customers from './Customers';
 
 const Home = () => {
     const [isShown, setIsShown] = useState(false);
@@ -21,7 +22,7 @@ const Home = () => {
 
     return (
         <>
-            <div className={`home-container ${isShown ? 'show' : ''}`}>
+            <div id='home' className={`home-container ${isShown ? 'show' : ''}`}>
                 <div className="home-left">
                     <h1>
                         Book with us and enjoy your <span className="highlight">Journey!</span>
@@ -122,7 +123,9 @@ const Home = () => {
                 </div>
             </div>
 			<AboutUS />
+			<Customers />
 			<Contact />
+
         </>
     );
 };

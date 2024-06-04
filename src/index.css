@@ -6,12 +6,61 @@
 	padding: 10px 50px;
 }
 
+html {
+	scroll-behavior: smooth;
+}
+
 * {
 	margin: 0;
 	padding: 0;
 	font-family: 'Mulish', sans-serif;
 	box-sizing: border-box;
 }
+#navbar{
+	z-index: 200000000000;
+	position: sticky;
+	top: 0;
+	/* padding: 40px; */
+	cursor: pointer;
+}
+.navbar.sticky {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 1000;
+  }
+
+.navbar-links a {
+	color: #fff;
+	text-decoration: none;
+	padding-bottom: 4px; /* add this line */
+	position: relative; /* add this line */
+  }
+  
+  .navbar-links a::before {
+	content: "";
+	display: block;
+	width: 0;
+	height: 2px;
+	background-color: gold;
+	position: absolute;
+	left: 50%;
+	bottom: 0;
+	transition: width 0.3s ease-out;
+  }
+  
+  .navbar-links a:hover::before {
+	width: 100%;
+	left: 0;
+	transition: width 0.3s ease-out, left 0.3s ease-out;
+  }
+
+  .navbar-links a.active {
+	color: gold;
+	font-weight: bold;
+  }
+  
 
 .navbar {
 	display: flex;
@@ -23,13 +72,12 @@
 	padding: 10px 50px;
 	margin-top: 10px;
 
+
 	/* box-shadow: 0px 0.5px 0px grey; */
 }
 
-.navbar-logo {
-	font-size: 24px;
-	font-weight: bold;
-	color: black;
+.navbar-logo img {
+	width: 200px;
 }
 
 .navbar-links {
@@ -263,10 +311,15 @@
 	/* margin-bottomx`: 0; */
 }
 
+.about-para{
+	margin-bottom: 20px;
+}
+
 .subtitle {
 	color: #ffc000;
 	font-weight: bold;
 	margin-top: 15px;
+	margin-bottom: 20px;
 }
 
 .about-container {
@@ -343,6 +396,10 @@
 
 /* contact us */
 
+.form-res{
+	margin: 20px 0 ;
+}
+
 .contact-title {
 	text-align: center;
 }
@@ -353,7 +410,7 @@
 	flex-direction: column;
 	align-items: center;
 	padding: 20px;
-	border-radius: 10px
+	border-radius: 10px;
 }
 
 .contact-title {
@@ -475,7 +532,7 @@ button:hover {
 
 /*! visa requirements  */
 
-.visa-requirements{
+.visa-requirements {
 	display: flex;
 	justify-content: center;
 	align-items: center;
@@ -486,23 +543,62 @@ button:hover {
 }
 
 .visa-requirements h2 {
-    margin-bottom: 20px;
-    font-size: 24px;
+	margin-bottom: 20px;
+	font-size: 24px;
 }
 
 .visa-requirements h3 {
-    margin-top: 20px;
-    margin-bottom: 10px;
-    font-size: 20px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	font-size: 20px;
 }
 
 .visa-requirements ul {
-    padding-left: 20px;
-    line-height: 1.6;
-    margin-bottom: 20px;
+	padding-left: 20px;
+	line-height: 1.6;
+	margin-bottom: 20px;
 }
 
 .visa-requirements li {
-    margin-bottom: 10px;
-    font-size: 16px;
+	margin-bottom: 10px;
+	font-size: 16px;
 }
+
+/* customers */
+
+.customers {
+	text-align: center;
+	padding: 20px;
+}
+
+.logo-container {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	gap: 20px;
+}
+
+.customer-logo {
+	width: 100px;
+	height: auto;
+	object-fit: contain;
+}
+
+/* test */
+
+.navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 100;
+	margin-top: 0;
+	transition: transform 0.3s ease-out;
+  transform: translateY(0);
+  padding: 40px ;
+  }
+  
+  
+  .navbar.hide {
+	transform: translateY(-100%);
+  }

@@ -8,7 +8,7 @@ import ContactDetails from '../components/ContactDetails';
 function Contact() {
   return (
     <>
-      <div className="contact-container">
+      <div id='contact' className="contact-container">
         <div className="contact-title">
           <h1>Contact Us</h1>
           <img

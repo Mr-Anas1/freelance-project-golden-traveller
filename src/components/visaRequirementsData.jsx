@@ -14,7 +14,7 @@ const visaRequirementsData = {
 		'Period of getting visa: 15 days',
 		'Working Days: Saturday to Wednesday',
 	],
-	Australia: ['no data available'],
+	Australia: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Austria: [
 		'Important Information about Schengen Visa, Click Here',
 		'Fill up a visa application form',
@@ -311,7 +311,7 @@ const visaRequirementsData = {
 		'Exit re-entry (expatriate employees)',
 		'Original passport and copy',
 	],
-	Ethiopia: ['No data found'],
+	Ethiopia: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	France: [
 		'Fill up a visa application form',
 		'2 photographs (white background; without head cover for male; female can wear a head cover but the ears and forehead should be shown)',
@@ -514,7 +514,7 @@ const visaRequirementsData = {
 		'ORIGINAL PASSPORT AND COPY',
 		'LETTER FROM SCHOOL (DEPENDENT)',
 	],
-	Khazakhstan: ['No data found'],
+	Khazakhstan: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Korea: {
 		VisitorVisa: [
 			'Completed application form',
@@ -602,7 +602,7 @@ const visaRequirementsData = {
 		'SPONSOR LETTER (Mention that she is his housemaid and the reason of accompany)',
 		'PROOF OF ACCOMODATION (APARTMENT/ HOTEL)',
 	],
-	Nepal: ['No data found'],
+	Nepal: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Netherlands: [
 		'Fill up a visa application form',
 		'2 photographs (white background; without head cover for Male; Female can wear a head cover but the ears and forehead should be shown.)',
@@ -634,7 +634,7 @@ const visaRequirementsData = {
 		'Passport must be valid for 6 months upon leaving the country',
 		'Original passport and photocopy',
 	],
-	Nigeria: ['No data found'],
+	Nigeria: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Norway: [
 		'Fill up a Visa Application Form.',
 		'2 PHOTOGRAPHS (Without head cover for Male; Female can wear a head cover but the ears and forehead should be shown.)',
@@ -774,8 +774,8 @@ const visaRequirementsData = {
 		'Original passport and photocopy',
 		'Make appointment with SPAIN EMBASSY before submitting your application in AL FIFA :Book Appointment',
 	],
-	SriLanka: ['No data found'],
-	Sudan: ['No data found'],
+	SriLanka: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
+	Sudan: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Sweden: {
 		'Saudi Arabian citizens going on a business trip': [
 			'One Schengen Visa Application form filled in correctly and in details and signed by the applicant.',
@@ -1047,7 +1047,7 @@ const visaRequirementsData = {
 		'HEALTH CERTIFICATE',
 		'GLOBAL TRAVEL ORDER (BUSINESS)',
 	],
-	Vietnam: ['no data found'],
+	Vietnam: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Yemen: [
 		'2 PHOTOGRAPHS',
 		'INTRODUCTION LETTER FROM PERSONNEL ADDRESS TO EMBASSY',
