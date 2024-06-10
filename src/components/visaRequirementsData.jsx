@@ -1,6 +1,5 @@
 const visaRequirementsData = {
 	Argentina: [
-		'Fill up a visa application form',
 		'4 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Bank Statement 3 months',
@@ -17,7 +16,6 @@ const visaRequirementsData = {
 	Australia: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Austria: [
 		'Important Information about Schengen Visa, Click Here',
-		'Fill up a visa application form',
 		'2 photographs (Without head cover for male; female can wear a head cover but the ears and forehead should be shown.)',
 		'Original certificate of employment addressed to the embassy (salary, Position, purpose of visit)',
 		'Ticket copy/Reservation',
@@ -32,7 +30,7 @@ const visaRequirementsData = {
 		'Period of getting Visa: 15 days',
 		'Original Bank statement (6 months). (Balance must be more than SR 25,000).',
 		'Working Days: Saturday to Wednesday',
-		'As per Embassy Regulations, Applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An Applicant may submit his visa application along with his family’s application on their behalf. AlFifa will collect back the passports for applicants as requested, passport submission receipt is required.',
+		'As per Embassy Regulations, Applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An Applicant may submit his visa application along with his family’s application on their behalf. Global Traveler Agency’s executive will collect back the passports for applicants as requested, passport submission receipt is required.',
 		'Note: Please make sure to include a copy of the insurance, ticket and the passport in each of the files of the family members.',
 	],
 	Azerbaijan: [
@@ -53,7 +51,6 @@ const visaRequirementsData = {
 		'one passport-size photograph or a photocopy of the passport data',
 	],
 	Bahrain: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Exit re-entry',
@@ -61,7 +58,6 @@ const visaRequirementsData = {
 	],
 	Bangladesh: {
         visa_application: [
-            "Fill up a visa application form",
             "2 Photographs",
             "Certificate of employment addressed to the embassy",
             "Iqama copy/ Saudi ID copy",
@@ -99,7 +95,6 @@ const visaRequirementsData = {
     },
 	Belgium: [
 		'Important Information about Schengen Visa, Click Here',
-		'Fill up a visa application form',
 		'2 photographs (without head cover for Male; Female can wear a head cover but the ears and forehead should be shown.)',
 		'Certificate of employment addressed to the embassy (salary, position, and purpose of visit)',
 		'Bank statement (3 months). (Balance must be more than SR 25,000).',
@@ -114,7 +109,7 @@ const visaRequirementsData = {
 		'Passport must be valid for 6 months upon leaving the country',
 		'Period of getting visa: 25 days',
 		'Working Days: Saturday to Wednesday',
-		'Applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An Applicant may submit his visa application along with his family’s application on their behalf. AlFifa will collect back the passports for applicants as requested, passport submission receipt is required.',
+		'Applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An Applicant may submit his visa application along with his family’s application on their behalf. Global Traveler Agency’s executive will collect back the passports for applicants as requested, passport submission receipt is required.',
 	],
 	"Brazil": {
 		"tourist_visa": [
@@ -156,7 +151,6 @@ const visaRequirementsData = {
 		}
 	},
 	Brunei: [
-		'Fill up a visa application form',
 		'3 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Hotel reservation',
@@ -164,7 +158,6 @@ const visaRequirementsData = {
 		'Original passport and copy',
 	],
 	Canada: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy (salary)',
 		'Bank statement (6 months)',
@@ -227,7 +220,6 @@ const visaRequirementsData = {
 		'Proof for flight reservations and hotel accommodation',
 	],
 	CzechRepublic: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 PHOTOGRAPHS (without head cover for male; female can wear a head cover but the ears and forehead should be shown)',
 		'CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY (SALARY, POSITION, PURPOSE OF VISIT)',
 		'BANK STATEMENT/PHOTOCOPY OF CREDIT CARD',
@@ -304,7 +296,6 @@ const visaRequirementsData = {
         ]
     },
 	Egypt: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Iqama copy',
@@ -313,26 +304,23 @@ const visaRequirementsData = {
 	],
 	Ethiopia: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	France: [
-		'Fill up a visa application form',
 		'2 photographs (white background; without head cover for male; female can wear a head cover but the ears and forehead should be shown)',
-		'Certificate of employment addressed to the embassy (salary, position, purpose of visit)',
-		'Bank statement (3 months). (Balance must be more than SR 25,000)',
-		'Photocopy of ticket',
-		'Hotel reservation (copy directly from the hotel + hotel voucher). It should match with the ticket',
+		'Certificate of employment addressed to the embassy (salary, position, date of joining, purpose of visit)',
+		'Bank statement (3 months). For Expatriates, bank statements of 6 months.',
+		'Photocopy of ticket (If available)',
+		'Hotel reservation (copy directly from the hotel + hotel voucher).(if any bookings are made).',
 		'Health/travel insurance',
+		'Passport must be signed by parents for children below 12 years.',
 		'Passport must be signed by the passport holder',
 		'Invitation letter (business)',
 		'Exit re-entry (expatriate employees)',
-		'Photocopy of Iqama (expatriate employees)',
+		'Photocopy of iqama, valid for minimum 4 months (expatriate employees)',
 		'Passport must be valid for 6 months upon leaving the country',
 		'Original passport and photocopy',
-		'Parental Consent Letter if Minor is travelling without their parents/guardian and Passport Copy, Saudi I.D and Family Book of Father',
-		'Financial Guarantee Letter from the Father/Guardian supporting the Trip and Credit Card Copy',
-		'Booking an appointment in the embassy through this link (France Embassy) and print the receipt',
-		'As per Embassy Regulations, applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An applicant may submit his visa application along with his family’s application on their behalf. AlFifa will collect back the passports for applicants as requested, passport submission receipt is required.',
+		'Copy of Saudi ID, Family ID, (if applying with family)',
+		'As per Embassy Regulations, applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An applicant may submit his visa application along with his family’s application on their behalf. Golden Traveler Agency’s executive will collect back the passports for applicants as requested, passport submission receipt is required.',
 	],
 	Finland: [
-		'Fill up a visa application form',
 		'2 photographs (No head cover allowed for men)',
 		'Certificate of employment addressed to the embassy',
 		'Bank statement (Balance must be more than SR 25,000)',
@@ -352,7 +340,6 @@ const visaRequirementsData = {
 		'As per Embassy Regulations, applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An applicant may submit his visa application along with his family’s application on their behalf. AlFifa will collect back the passports for applicants as requested, passport submission receipt is required.',
 	],
 	Germany: [
-		'Fill up a visa application form',
 		'2 photographs (3.5cm X 4.5cm with WHITE BACKGROUND and without head cover for men)',
 		'Certificate of employment addressed to the embassy',
 		'Bank statement (3 months). (Balance must be more than SR 25,000)',
@@ -369,7 +356,6 @@ const visaRequirementsData = {
 		'As per Embassy Regulations, applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An applicant may submit his visa application along with his family’s application on their behalf. AlFifa will collect back the passports for applicants as requested, passport submission receipt is required.',
 	],
 	Ghana: [
-		'Fill up a visa application form',
 		'4 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Hotel reservation',
@@ -377,7 +363,6 @@ const visaRequirementsData = {
 		'Iqama copy / Saudi ID copy',
 	],
 	Greece: [
-		'Fill up a visa application form',
 		'2 photographs (white background, without head cover for male; female can wear a head cover but the ears and forehead should be shown)',
 		'Certificate of employment addressed to the embassy (salary, position, purpose of visit)',
 		'Bank statement (3 months). (Balance must be more than SR 25,000)',
@@ -410,7 +395,6 @@ const visaRequirementsData = {
 		'As per Embassy Regulations, Applicants are required to visit Embassy or Application Centers personally for the collection of their biometric data and to submit the visa application. The biometric data is valid for 5 years and children under the age of 12 are exempt from biometric data collection. An Applicant may submit his visa application along with his family’s application on their behalf. AlFifa will collect back the passports for applicants as requested, passport submission receipt is required.',
 	],
 	India: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Photocopy of Iqama/Saudi ID',
 		'Original Passports',
@@ -419,7 +403,6 @@ const visaRequirementsData = {
 		'Ticket copy',
 	],
 	Indonesia: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Original ticket and photocopy',
 		'Exit re-entry (expatriate employees)',
@@ -434,7 +417,6 @@ const visaRequirementsData = {
 		'Additional Application Form:',
 	],
 	Ireland: [
-		'Fill up a visa application form',
 		'3 photographs (white background, without head cover)',
 		'Certificate of employment addressed to the embassy (salary)',
 		'Ticket copy/reservation',
@@ -446,7 +428,6 @@ const visaRequirementsData = {
 	],
 	Italy: [
 		'Important Information about Schengen Visa, Click Here',
-		'Fill up a visa application form',
 		'2 photographs (3.5cm X 4.5cm White Background and without head cover for men only)',
 		'Original certificate of employment addressed to the embassy (salary, Position, purpose of visit)',
 		'Ticket copy/Reservation',
@@ -476,7 +457,6 @@ const visaRequirementsData = {
 		'Ticket/Hotel Booking copy',
 	],
 	Japan: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Ticket and hotel reservation',
@@ -497,7 +477,6 @@ const visaRequirementsData = {
 			'A letter of authorization to ALFIFA on the official letterhead of the sponsoring company for the holder of the passport, certified by the Chamber of Commerce and MOFA. (A sample letter is available at our office)',
 		],
 		VisaRequirements: [
-			'Fill up a visa application form',
 			'2 photographs',
 			'Certificate of employment addressed to the embassy',
 			'Exit re-entry (6 months)',
@@ -506,7 +485,6 @@ const visaRequirementsData = {
 		],
 	},
 	Kenya: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 PHOTOGRAPHS',
 		'CERTIFICATE OF EMPLOYMENT ADDRSSED TO THE EMBASSY',
 		'EXIT RE-ENTRY (EXPATRIATE EMPLOYEES)',
@@ -544,7 +522,6 @@ const visaRequirementsData = {
 		],
 	},
 	Lebanon: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Photocopy of Iqama',
@@ -583,7 +560,6 @@ const visaRequirementsData = {
         }
     },
 	Mexico: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 WHITE BACKGROUND PHOTOGRAPHS',
 		'CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY',
 		'TICKET COPY/ RESERVATION',
@@ -592,7 +568,6 @@ const visaRequirementsData = {
 		'BANK STATEMENT (ENGLISH)',
 	],
 	Morocco: [
-		'FILL UP A VISA APPLICATION FORM AND SIGN IT',
 		'ORIGINAL PASSPORT',
 		'2 PHOTOGRAPHS',
 		'IQAMA COPY',
@@ -604,7 +579,6 @@ const visaRequirementsData = {
 	],
 	Nepal: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Netherlands: [
-		'Fill up a visa application form',
 		'2 photographs (white background; without head cover for Male; Female can wear a head cover but the ears and forehead should be shown.)',
 		'Certificate of employment addressed to the embassy (salary, position, Purpose of visit)',
 		'Bank statement (3 months). (Balance must be more than SR 25,000).',
@@ -620,7 +594,6 @@ const visaRequirementsData = {
 		'You need to make appointment Click Here',
 	],
 	'New Zealand': [
-		'Fill up a visa application form',
 		'2 photographs (white background; without head cover for male; female can wear a head cover but the ears and forehead should be shown.)',
 		'Certificate of employment addressed to the embassy (salary, position, Purpose of visit).',
 		'Bank statement (3 months). (Balance must be more than SR 25,000).',
@@ -636,7 +609,6 @@ const visaRequirementsData = {
 	],
 	Nigeria: {"Contact the company for more detail, Reach us at ":['Phone no. 0530833699,0559874003,0501426027,0501472031,0565620721','For booking: bookings@g-travel.com.sa ', 'For visa enquiries: visa@g-travel.com.sa']},
 	Norway: [
-		'Fill up a Visa Application Form.',
 		'2 PHOTOGRAPHS (Without head cover for Male; Female can wear a head cover but the ears and forehead should be shown.)',
 		'Certificate of Employment addressed to the embassy (SALARY, POSITION, PURPOSE OF VISIT)',
 		'Original Ticket',
@@ -650,7 +622,6 @@ const visaRequirementsData = {
 		'Original Passport and Photocopy',
 	],
 	Pakistan: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 PHOTOGRAPHS',
 		'CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY',
 		'ORIGINAL PASSPORT AND COPY',
@@ -683,7 +654,6 @@ const visaRequirementsData = {
         clearance_for_travel_documents: ["Applicants who are holders of TRAVEL DOCUMENTS have to wait approval (CLEARANCE) from Manila before the issuance of their visas."]
     },
 	Poland: [
-		'Fill up a visa application form onlinehttp://www.e-konsulat.gov.pl/',
 		'Appointment Booking from same link above',
 		'2 photographs (3.5CM X 4.5CM WHITE BACKGROUND and without head cover for men only.)',
 		'Certificate of employment addressed to the embassy',
@@ -697,7 +667,6 @@ const visaRequirementsData = {
 		'Bank Statement (Last 3 months)',
 	],
 	Portugal: [
-		'Fill up a visa application form',
 		'2 photographs (without head cover for male; female can wear a head cover But the ears and forehead should be shown.)',
 		'Certificate of employment addressed to the embassy (salary, position, Purpose of visit)',
 		'Original ticket',
@@ -727,7 +696,6 @@ const visaRequirementsData = {
 		'Travel Insurance',
 	],
 	Russia: [
-		'Fill up a visa application form',
 		'2 photographs 3.5*4.5',
 		'Certificate of employment addressed to the embassy',
 		'Saudi ID',
@@ -735,7 +703,6 @@ const visaRequirementsData = {
 		'Passport',
 	],
 	Singapore: [
-		'Fill up a visa application form',
 		'Copy for the first page of the passport',
 		'3 photographs( white background)',
 		'Certificate of employment addressed to the embassy',
@@ -760,7 +727,6 @@ const visaRequirementsData = {
 	],
 	Spain: [
 		'Important Information about Schengen Visa,Click Here',
-		'Fill up a visa application form (2 photocopies)',
 		'3 photographs (without head cover for male)',
 		'Original certificate of employment addressed to the embassy (salary, position, Purpose of visit)',
 		'Bank statement ( 6 months) Original. (Balance must be more than SR 25,000).',
@@ -831,7 +797,6 @@ const visaRequirementsData = {
 	},
 	Switzerland: [
 		'Important Information about Schengen Visa,Click Here',
-		'Fill up a visa application form',
 		'1 photographs without head cover for male (3.5cm X 4.5cm with White Background)',
 		'Certificate of employment addressed to the embassy (salary, position, Purpose of visit)',
 		'Original bank statement (Last 6 months )',
@@ -844,7 +809,6 @@ const visaRequirementsData = {
 		'Please call embassy to take appointment. Tel: 01-4881291',
 	],
 	Syria: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Passport must be valid for 6 month upon leaving the country',
@@ -852,7 +816,6 @@ const visaRequirementsData = {
 		'For domestic, helper: Sponsor ID/ Passport Copy.',
 	],
 	Taiwan: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Ticket copy/reservation',
@@ -868,12 +831,10 @@ const visaRequirementsData = {
 		'Two colored passport size photos taken not more than six months back.',
 	],
 	Tajikistan: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment',
 	],
 	Thailand: [
-		'Fill up a visa application form',
 		'3 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Ticket reservation',
@@ -884,7 +845,6 @@ const visaRequirementsData = {
 		'Passport must be valid for 6 months',
 	],
 	Tunisia: [
-		'Fill up a visa application form(2)',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy',
 		'Original passport and photocopy',
@@ -936,7 +896,6 @@ const visaRequirementsData = {
         ]
     },
 	UAE: [
-		'Fill up a visa application form',
 		'2 photographs',
 		'Certificate of employment addressed to the embassy (Salary)',
 		'Exit re-entry (expatriate employees)',
@@ -954,7 +913,6 @@ const visaRequirementsData = {
         ],
         visa_required_for: ["All persons other than those listed above are required to have a Ukrainian visa for the period of their intended stay in Ukraine."],
         visa_requirements: [
-            "Fill up a visa application form",
             "2 photographs",
             "Certificate of employment addressed to the embassy",
             "Original invitation letter",
@@ -963,7 +921,6 @@ const visaRequirementsData = {
         additional_note: ["Holders of ordinary passports of Afghanistan, Angola, Bangladesh, China, Democratic Republic of Congo, Ghana, India, Iraq, Iran, Jordan, Lebanon, Libya, Morocco, Nigeria, Pakistan, Palestine, Syria, Somalia, Sri Lanka, Taiwan, and Vietnam, as well as other countries of the Near and Middle East and Northern Africa, are urged to contact the Consular Section prior to submitting their visa applications."]
     },
 	Uganda: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 PHOTOGRAPHS',
 		'CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY',
 		'COPY OF ID CARD',
@@ -1022,7 +979,6 @@ const visaRequirementsData = {
         ]
     },
 	Uruguay: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 PHOTOGRAPHS',
 		'CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY',
 		'COPY OF SAUDI ID CARD / IQAMA COPY',
@@ -1037,7 +993,6 @@ const visaRequirementsData = {
 		'- Passport Renewal',
 	],
 	Venezuela: [
-		'FILL UP A VISA APPLICATION FORM',
 		'2 PHOTOGRAPHS',
 		'CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY',
 		'PASSPORT MUST BE VALID FOR ONE YEAR',
@@ -1051,7 +1006,6 @@ const visaRequirementsData = {
 	Yemen: [
 		'2 PHOTOGRAPHS',
 		'INTRODUCTION LETTER FROM PERSONNEL ADDRESS TO EMBASSY',
-		'FILL UP A VISA APPLICATION FORM',
 		'HEALTH CERTIFICATE',
 		'IQAMA COPY',
 	],

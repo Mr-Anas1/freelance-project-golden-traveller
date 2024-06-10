@@ -4,6 +4,7 @@ import Navbar from "../components/Navbar"
 import AboutUS from "./AboutUs"
 import Contact from './Contact';
 import Customers from './Customers';
+import Footer from '../components/Footer';
 
 const Home = () => {
     const [isShown, setIsShown] = useState(false);
@@ -125,7 +126,7 @@ const Home = () => {
 			<AboutUS />
 			<Customers />
 			<Contact />
-
+			<Footer />
         </>
     );
 };
