@@ -16,12 +16,12 @@ function AboutUs() {
 			className="about-us"
 		>
 			<div className="about-title">
-				<h1>About Us</h1>
-				<img
+				<h1 >About Us</h1>
+				{/* <img
 					src={image}
 					alt="About Us"
 					className="wavy"
-				/>
+				/> */}
 			</div>
 			<div className={`about-container ${isShown ? 'show' : ''}`}>
 				<div className="about-left">

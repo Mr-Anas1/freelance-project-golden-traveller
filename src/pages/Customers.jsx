@@ -16,11 +16,11 @@ function Customers() {
 			>
 				<div className="about-title">
 					<h1>Our Customers</h1>
-					<img
+					{/* <img
 						src={image}
 						alt="About Us"
 						className="wavy"
-					/>
+					/> */}
 				</div>
 				<div className="customers">
 					<div className="logo-container">

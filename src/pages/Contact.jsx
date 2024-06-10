@@ -11,11 +11,11 @@ function Contact() {
       <div id='contact' className="contact-container">
         <div className="contact-title">
           <h1>Contact Us</h1>
-          <img
+          {/* <img
             src={image}
             alt="About Us"
             className="wavy"
-          />
+          /> */}
         </div>
         <div className="contact-form">
           <ContactForm />
