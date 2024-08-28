@@ -570,10 +570,13 @@ button:hover {
 }
 
 .logo-container {
+	width: 80%;
 	display: flex;
-	justify-content: space-around;
+	justify-content: center;
+	align-items: center;
 	flex-wrap: wrap;
-	gap: 20px;
+	gap: 60px;
+	margin: 0 auto;
 }
 
 .customer-logo {
