@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import  { useState } from 'react';
 
 function ContactForm() {
   const [result, setResult] = useState("");
@@ -28,7 +28,7 @@ function ContactForm() {
 
   return (
     <div className="contact-form-left">
-      <h2 className='touch'>Get in Touch with us</h2>
+      <h2 className='touch'>Get in Touch</h2>
       <form onSubmit={onSubmit}>
         <div className="form-group">
           <label htmlFor="name">Full Name</label>

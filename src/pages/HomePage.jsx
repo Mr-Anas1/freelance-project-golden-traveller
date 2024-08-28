@@ -1,10 +1,10 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import Navbar from "../components/Navbar"
 import AboutUS from "./AboutUs"
 import Contact from './Contact';
 import Customers from './Customers';
 import Footer from '../components/Footer';
+import Services from './Services';
 
 const Home = () => {
     const [isShown, setIsShown] = useState(false);
@@ -32,7 +32,7 @@ const Home = () => {
                         Our team is always ready to give you the best travel memories in your life.
                     </p>
                     <div className="emb">
-                        <label htmlFor="embassies">Select Your Embassy</label>
+                        <label htmlFor="embassies">Select Your Embassy Visa</label>
                         <select name="embassies" id="embassies" onChange={handleSelectChange}>
                             {/* List of countries */}
                             {/* ... (same as provided earlier) */}
@@ -123,6 +123,7 @@ const Home = () => {
                     />
                 </div>
             </div>
+			<Services />
 			<AboutUS />
 			<Customers />
 			<Contact />
