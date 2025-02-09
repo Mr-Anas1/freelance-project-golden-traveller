@@ -1,5 +1,5 @@
-import React, { useState, useEffect, useRef } from 'react';
-import logo from "../images/golden traveler agency.png"
+import React, { useState, useEffect, useRef } from "react";
+import logo from "../images/golden traveler agency.png";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -21,10 +21,10 @@ const Navbar = () => {
       prevScrollRef.current = currentScroll;
     };
 
-    window.addEventListener('scroll', handleScroll);
+    window.addEventListener("scroll", handleScroll);
 
     return () => {
-      window.removeEventListener('scroll', handleScroll);
+      window.removeEventListener("scroll", handleScroll);
     };
   }, []);
 
@@ -41,28 +41,36 @@ const Navbar = () => {
   };
 
   return (
-    <nav id='navbar' className={`navbar ${isOpen ? 'open' : ''} ${isScrolled ? 'hide' : ''}`}>
+    <nav
+      id="navbar"
+      className={`navbar ${isOpen ? "open" : ""} ${isScrolled ? "hide" : ""}`}
+    >
       <div className="navbar-logo">
         <img src={logo} alt="" onClick={reloadPage} />
       </div>
       <ul className="navbar-links">
         <li>
-          <a href="#home" onClick={closeMenu}>Home</a>
+          <a href="#home" onClick={closeMenu}>
+            Home
+          </a>
         </li>
         <li>
-          <a href="#about" onClick={closeMenu}>About us</a>
+          <a href="#about" onClick={closeMenu}>
+            About us
+          </a>
         </li>
         <li>
-          <a href="#customer" onClick={closeMenu}>Our Customers</a>
+          <a href="#customer" onClick={closeMenu}>
+            Our Customers
+          </a>
         </li>
         <li>
-          <a href="#contact" onClick={closeMenu}>Contact us</a>
+          <a href="#contact" onClick={closeMenu}>
+            Contact us
+          </a>
         </li>
       </ul>
-      <div
-        className="navbar-toggle"
-        onClick={handleToggle}
-      >
+      <div className="navbar-toggle" onClick={handleToggle}>
         <span className="bar"></span>
         <span className="bar"></span>
         <span className="bar"></span>

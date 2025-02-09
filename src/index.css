@@ -16,6 +16,7 @@ html {
 	font-family: 'Mulish', sans-serif;
 	box-sizing: border-box;
 }
+
 #navbar {
 	z-index: 200000000000;
 	position: sticky;
@@ -23,6 +24,7 @@ html {
 	/* padding: 40px; */
 	cursor: pointer;
 }
+
 .navbar.sticky {
 	position: fixed;
 	top: 0;
@@ -34,8 +36,11 @@ html {
 .navbar-links a {
 	color: #fff;
 	text-decoration: none;
-	padding-bottom: 4px; /* add this line */
-	position: relative; /* add this line */
+	font-weight: 700;
+	padding-bottom: 4px;
+	/* add this line */
+	position: relative;
+	/* add this line */
 }
 
 .navbar-links a::before {
@@ -148,13 +153,11 @@ html {
 	align-items: flex-start;
 	padding: 20px;
 	background-color: white;
-	background: linear-gradient(
-		to right,
-		rgb(255, 255, 255) 0%,
-		rgb(241, 248, 212) 25%,
-		rgb(255, 255, 255) 75%,
-		rgb(255, 255, 255) 100%
-	);
+	background: linear-gradient(to right,
+			rgb(255, 255, 255) 0%,
+			rgb(241, 248, 212) 25%,
+			rgb(255, 255, 255) 75%,
+			rgb(255, 255, 255) 100%);
 }
 
 .home-left {
@@ -488,6 +491,7 @@ button:hover {
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
+
 /* styles.css */
 .contact-details {
 	display: flex;
@@ -613,20 +617,19 @@ button:hover {
 	padding: 20px;
 	background-color: #333;
 	color: #fff;
-  }
-  
-  .footer .left {
+}
+
+.footer .left {
 	font-size: 14px;
-  }
-  
-  .footer .right a {
+}
+
+.footer .right a {
 	margin: 0 10px;
 	color: #fff;
 	font-size: 18px;
 	text-decoration: none;
-  }
-  
-  .footer .right a:hover {
+}
+
+.footer .right a:hover {
 	color: #ddd;
-  }
-  
+}
