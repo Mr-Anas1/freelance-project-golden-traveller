@@ -633,3 +633,67 @@ button:hover {
 .footer .right a:hover {
 	color: #ddd;
 }
+
+
+/* Visa Page */
+
+.visaContainer h1 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.visaContainer-countries {
+	padding: 30px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 30px;
+	align-items: center;
+}
+
+.visaCountryItem {
+	width: 300px;
+	height: 300px;
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	border: 1px solid #D3D3D3;
+	border-radius: 12px;
+	cursor: pointer;
+	transition: transform 0.3s ease;
+}
+
+.visaCountryItem:hover {
+	transform: scale(1.1)
+}
+
+
+.visaCountryBox {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+/* Country Flag Page */
+
+.countryImage {
+	width: 100%;
+	height: 100%;
+}
+
+.countryName {
+	font-size: 18px;
+	font-weight: bold;
+}
+
+.visaCountryList {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 30px;
+}
