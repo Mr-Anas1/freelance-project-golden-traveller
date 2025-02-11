@@ -697,3 +697,239 @@ button:hover {
 	flex-wrap: wrap;
 	gap: 30px;
 }
+
+.loading-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 150px;
+}
+
+.loading-spinner {
+	width: 50px;
+	height: 50px;
+	border: 5px solid #ddd;
+	border-top: 5px solid #3498db;
+	border-radius: 50%;
+	animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+	0% {
+		transform: rotate(0deg);
+	}
+
+	100% {
+		transform: rotate(360deg);
+	}
+}
+
+.visa-requirements-cta {
+	margin: 20px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.visa-requirements-cta button {
+	background-color: #ffc000;
+	padding: 10px 20px;
+	color: #ffffff;
+	border: none;
+	outline: none;
+	cursor: pointer;
+	border-radius: 8px;
+	font-size: 18px;
+	transition: background-color 0.3s ease;
+}
+
+.visa-requirements-cta button:hover {
+	background-color: #ffd148;
+}
+
+/* Flight page */
+
+.flight {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.flight h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+.flight h2 {
+	text-align: center;
+	margin: 10px;
+}
+
+.features {
+	padding: 20px;
+	box-sizing: border-box;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 30px;
+	flex-wrap: wrap;
+}
+
+/* featurebox */
+
+.featurebox {
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 10px;
+	margin-top: 20px;
+}
+
+.featurebox h3 {
+	text-align: center;
+	margin: 0;
+}
+
+.featurebox .feature-icon {
+	width: 70px;
+	height: 70px;
+}
+
+.featurebox p {
+	margin-top: 10px;
+	text-align: center;
+}
+
+/* BookingCTA */
+
+.booking-section {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+	justify-content: center;
+	align-items: center;
+	background-color: #fafafa;
+	padding: 20px;
+	box-sizing: border-box;
+}
+
+.booking-section .booking-btn {
+	background-color: #ffc000;
+	color: #ffffff;
+	border-radius: 8px;
+	padding: 10px 20px;
+	text-decoration: none;
+	transition: background-color 0.3s ease;
+}
+
+
+
+.booking-btn:hover {
+	background-color: #ffd148;
+}
+
+.booking-section p {
+	text-align: center;
+}
+
+.contact-info {
+	font-size: 14px;
+	text-align: center;
+
+}
+
+/* Hotel */
+
+.hotel {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.hotel h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+/* Insurance */
+
+.insurance {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.insurance h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+/* License */
+
+.license {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.license h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+/* Passport */
+
+.passport {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.passport h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+/* Housemaid */
+
+.housemaid {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.housemaid h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+.requirements {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 8px;
+	margin-top: 40px;
+}
+
+.requirements h2 {
+	margin: 10px;
+}
+
+.requirements-list {
+	list-style: none;
+	padding: 0;
+}
+
+.requirements-list li {
+	display: flex;
+	gap: 10px;
+}

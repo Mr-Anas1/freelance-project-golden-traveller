@@ -511,7 +511,7 @@ const visaRequirementsData = {
       "For visa enquiries: visa@g-travel.com.sa",
     ],
   },
-  korea: {
+  "south-korea": {
     VisitorVisa: [
       "Completed application form",
       "Recent passport size photograph",
@@ -974,7 +974,7 @@ const visaRequirementsData = {
     "CERTIFICATE OF EMPLOYMENT ADDRESSED TO THE EMBASSY",
     "COPY OF ID CARD",
   ],
-  england: {
+  "United Kingdom": {
     important_note: [
       "Upon receiving your application, we will send you an SMS to fix an appointment with the embassy. Kindly revert within 2 hours.",
       "Failure to respond within 2 hours will result in us fixing the appointment for you.",
@@ -1035,7 +1035,7 @@ const visaRequirementsData = {
     "HOTEL RESERVATION",
     "ORIGINAL PASSPORT",
   ],
-  "united-states-of-america": [
+  "united-states": [
     "US VISA Requirement",
     "- USA Visa Application",
     "- Non Immigrant Application Form (DS 160)",

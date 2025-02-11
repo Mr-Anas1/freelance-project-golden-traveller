@@ -24,7 +24,11 @@ const services = [
     text: "International Driver License",
     link: "/license",
   },
-  { icon: <FaPassport size={50} />, text: "Passport Renewal", link: "renewal" },
+  {
+    icon: <FaPassport size={50} />,
+    text: "Passport Renewal",
+    link: "passport",
+  },
   {
     icon: <FaBusinessTime size={50} />,
     text: "Corporate travel solutions",
@@ -33,7 +37,7 @@ const services = [
   {
     icon: <FaExchangeAlt size={50} />,
     text: "Transfers",
-    link: "/transfer",
+    link: "/transfers",
   },
   {
     icon: <FaHouseUser size={50} />,

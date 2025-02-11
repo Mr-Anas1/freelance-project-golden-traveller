@@ -23,7 +23,9 @@ function VisaCountryBox() {
   return (
     <div className="visaCountryBox">
       {loading ? (
-        <p>Loading flags...</p>
+        <div className="loading-container">
+          <div className="loading-spinner"></div>
+        </div>
       ) : (
         <div className="visaCountryList">
           {Object.entries(flags).map(([code, { flag, name }]) => (

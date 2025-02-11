@@ -50,22 +50,22 @@ const Navbar = () => {
       </div>
       <ul className="navbar-links">
         <li>
-          <a href="#home" onClick={closeMenu}>
+          <a href="/#home" onClick={closeMenu}>
             Home
           </a>
         </li>
         <li>
-          <a href="#about" onClick={closeMenu}>
+          <a href="/#about" onClick={closeMenu}>
             About us
           </a>
         </li>
         <li>
-          <a href="#customer" onClick={closeMenu}>
+          <a href="/#customer" onClick={closeMenu}>
             Our Customers
           </a>
         </li>
         <li>
-          <a href="#contact" onClick={closeMenu}>
+          <a href="/#contact" onClick={closeMenu}>
             Contact us
           </a>
         </li>
