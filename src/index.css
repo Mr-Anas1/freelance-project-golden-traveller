@@ -933,3 +933,217 @@ button:hover {
 	display: flex;
 	gap: 10px;
 }
+
+
+/* Corporate */
+
+.corporate {
+	width: 90vw;
+	margin: 0 auto;
+}
+
+.corporate-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+
+}
+
+
+.corporate-introBox {
+	display: flex;
+	justify-content: space-between;
+	gap: 20px;
+	align-items: center;
+	margin-top: 40px;
+	height: fit-content;
+}
+
+.corporate-introBox .corporate-introBox-img {
+	width: 600px;
+	height: 100%;
+	flex: 1;
+}
+
+.corporate-introBox .corporate-introBox-img img {
+	width: 100%;
+	height: 100%;
+	border-radius: 18px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+.corporate-introBox .corporate-introBox-content .corporate-introBox-title {
+	font-size: 52px;
+	font-weight: 700;
+	text-transform: capitalize;
+	color: #17233e;
+	line-height: 1.4;
+
+}
+
+.corporate-introBox-content {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+}
+
+.corporate-introBox-hashtag {
+	margin-bottom: 10px;
+	padding: 5px;
+	background-color: #ffc000;
+	color: #ffffff;
+	border-radius: 4px;
+	width: fit-content;
+	font-weight: 700;
+}
+
+
+.corporate-main-content {
+	margin: 40px 0px;
+	line-height: 1.4;
+	font-size: 18px;
+}
+
+.corporate-main-content>p {
+	text-align: start;
+}
+
+.corporate-offer-box {
+	margin: 0 auto;
+	background-color: #fafafa;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	width: 100%;
+}
+
+.corporate-offer-box h1 {
+	text-align: center;
+	margin-bottom: 25px;
+}
+
+.offer-list {
+	list-style: none;
+	padding: 0;
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+
+.offer-list li {
+	display: flex;
+	align-items: center;
+	gap: 12px;
+	font-size: 18px;
+	margin-bottom: 8px;
+	font-weight: 700;
+}
+
+.tick-icon {
+	color: #28a745;
+	font-size: 22px;
+}
+
+.feature-box {
+	margin: 40px 0px;
+}
+
+.feature-box h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+
+/* BookingForm */
+
+.booking-form {
+	display: flex;
+	flex-direction: column;
+	background-color: #17233e;
+	color: #fff;
+	padding: 30px;
+	box-sizing: border-box;
+	border-radius: 18px;
+	margin-bottom: 40px;
+}
+
+.booking-form input {
+	background-color: #eaeaea;
+	padding: 20px;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	margin: 10px 0px;
+}
+
+.booking-form label {
+	font-weight: 700;
+	margin-top: 10px;
+	font-size: 18px;
+}
+
+.booking-form>h1,
+p {
+	text-align: center;
+	margin: 10px;
+}
+
+.booking-form textarea {
+	height: 200px;
+	background-color: #eaeaea;
+	padding: 20px;
+	outline: none;
+	border: none;
+	border-radius: 8px;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+
+.booking-form button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+	padding: 10px 25px;
+	border-radius: 8px;
+	width: fit-content;
+	font-size: 18px;
+	margin: auto;
+	background-color: #ffc000;
+	color: #ffffff;
+}
+
+@media screen and (max-width: 1280px) {
+	.corporate-introBox h1 {
+		font-size: 44px;
+	}
+}
+
+@media screen and (max-width: 980px) {
+	.corporate-introBox {
+		flex-direction: column;
+	}
+
+	.corporate-introBox .corporate-introBox-img {
+		width: 100%;
+		height: 100%;
+		margin-top: 20px;
+	}
+
+	.corporate-introBox .corporate-introBox-content .corporate-introBox-title {
+		text-align: center;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	.corporate-introBox .corporate-introBox-content .corporate-introBox-title {
+		font-size: 32px;
+	}
+
+	.booking-form input {
+		padding: 10px;
+	}
+
+	.booking-form textarea {
+		padding: 10px;
+	}
+}
