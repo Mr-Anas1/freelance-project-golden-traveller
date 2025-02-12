@@ -7,8 +7,12 @@ import {
   MdHeadsetMic,
 } from "react-icons/md";
 import BookingCTA from "../components/BookingCTA";
+import { useEffect } from "react";
 
 function Flight() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <div className="flight">
       <div>

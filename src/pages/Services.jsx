@@ -1,3 +1,4 @@
+import { useState } from "react";
 import {
   FaHotel,
   FaPassport,
@@ -11,39 +12,19 @@ import {
 import { useNavigate } from "react-router-dom";
 
 const services = [
-  { icon: <FaPlane size={50} />, text: "Flight Tickets", link: "/flight" },
-  { icon: <FaHotel size={50} />, text: "Hotel Bookings", link: "/hotel" },
-  { icon: <FaPassport size={50} />, text: "Visa Services", link: "/visa" },
+  { icon: FaPlane, text: "Flight Tickets", link: "/flight" },
+  { icon: FaHotel, text: "Hotel Bookings", link: "/hotel" },
+  { icon: FaPassport, text: "Visa Services", link: "/visa" },
+  { icon: FaShieldAlt, text: "Trusted Travel Insurance", link: "/insurance" },
+  { icon: FaIdCard, text: "International Driver License", link: "/license" },
+  { icon: FaPassport, text: "Passport Renewal", link: "/passport" },
   {
-    icon: <FaShieldAlt size={50} />,
-    text: "Trusted Travel Insurance",
-    link: "/insurance",
-  },
-  {
-    icon: <FaIdCard size={50} />,
-    text: "International Driver License",
-    link: "/license",
-  },
-  {
-    icon: <FaPassport size={50} />,
-    text: "Passport Renewal",
-    link: "passport",
-  },
-  {
-    icon: <FaBusinessTime size={50} />,
+    icon: FaBusinessTime,
     text: "Corporate travel solutions",
     link: "/corporate",
   },
-  {
-    icon: <FaExchangeAlt size={50} />,
-    text: "Transfers",
-    link: "/transfers",
-  },
-  {
-    icon: <FaHouseUser size={50} />,
-    text: "Housemaid contract",
-    link: "/housemaid",
-  },
+  { icon: FaExchangeAlt, text: "Transfers", link: "/transfers" },
+  { icon: FaHouseUser, text: "Housemaid contract", link: "/housemaid" },
 ];
 
 const Services = () => {
@@ -52,24 +33,46 @@ const Services = () => {
   const handleServiceClick = (link) => {
     navigate(link);
   };
+
   return (
     <>
       <center>
         <h1 style={{ margin: "40px" }}>Our Services</h1>
       </center>
-      <div style={styles.container}>
+      <div style={styles.container} className="service-container">
         {services.map((service, index) => (
-          <div
+          <ServiceItem
             key={index}
-            style={styles.serviceItem}
-            onClick={() => handleServiceClick(service.link)}
-          >
-            {service.icon}
-            <p style={styles.text}>{service.text}</p>
-          </div>
+            service={service}
+            onClick={handleServiceClick}
+          />
         ))}
       </div>
     </>
+  );
+};
+
+const ServiceItem = ({ service, onClick }) => {
+  const [isHovered, setIsHovered] = useState(false);
+
+  return (
+    <div
+      style={{
+        ...styles.serviceItem,
+        color: isHovered ? "#ffc000" : "black",
+      }}
+      onMouseEnter={() => setIsHovered(true)}
+      onMouseLeave={() => setIsHovered(false)}
+      onClick={() => onClick(service.link)}
+    >
+      <service.icon
+        size={50}
+        style={{ color: isHovered ? "#ffc000" : "black" }}
+      />
+      <p style={{ ...styles.text, color: isHovered ? "#ffc000" : "black" }}>
+        {service.text}
+      </p>
+    </div>
   );
 };
 
@@ -79,7 +82,7 @@ const styles = {
     justifyContent: "center",
     alignItems: "center",
     flexWrap: "wrap",
-    padding: "20px",
+    padding: "0px 120px",
   },
   serviceItem: {
     display: "flex",
@@ -87,22 +90,14 @@ const styles = {
     alignItems: "center",
     margin: "10px",
     textAlign: "center",
-    flex: "1 1 150px", // Allows for responsiveness
+    flex: "1 1 150px",
     maxWidth: "200px",
     cursor: "pointer",
+    transition: "color 0.3s ease",
   },
   text: {
     marginTop: "10px",
     fontSize: "16px",
-  },
-  "@media (max-width: 768px)": {
-    container: {
-      flexDirection: "column",
-    },
-    serviceItem: {
-      flex: "1 1 100%", // Full width on smaller screens
-      maxWidth: "100%",
-    },
   },
 };
 

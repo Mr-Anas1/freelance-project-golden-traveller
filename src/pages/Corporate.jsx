@@ -6,8 +6,12 @@ import FeatureBox from "../components/FeatureBox";
 import BookMeetingForm from "../components/BookMeetingForm";
 import BookingCTA from "../components/BookingCTA";
 import Footer from "../components/Footer";
+import { useEffect } from "react";
 
 function Corporate() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <div className="corporate">
       <div className="corporate-container">

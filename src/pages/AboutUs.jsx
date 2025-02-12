@@ -1,4 +1,14 @@
 import { useState, useEffect } from "react";
+import {
+  MdHotel,
+  MdFlight,
+  MdSecurity,
+  MdExplore,
+  MdWork,
+  MdDriveEta,
+  MdAssignment,
+} from "react-icons/md";
+import FeatureBox from "../components/FeatureBox";
 
 function AboutUs() {
   const [isShown, setIsShown] = useState(false);
@@ -26,52 +36,68 @@ function AboutUs() {
         </div>
         <div className="about-right">
           <p className="about-para">
-            Founded in February 2022, our agency, established in the name of
-            Mrs. Eman Ali Al Sahaf, is dedicated to making your travel
-            experience seamless and enjoyable. With branches in Khobar and
-            Jubail, we strive to provide hassle-free solutions for all your
-            travel needs.
-          </p>
-          <h4>What We Offer:</h4>
-          <p>
-            <ul>
-              <li>
-                <b>Hotel Bookings:</b> Handpicked accommodations to match your
-                style and budget.
-              </li>
-              <li>
-                <b>Custom Travel Packages:</b> Designed to suit both leisure and
-                business travelers.
-              </li>
-              <li>
-                <b>Comprehensive Travel Insurance:</b> Ensuring peace of mind
-                every step of the way.
-              </li>
-              <li>
-                <b>Visa Services:</b> For medical, tourism, and business travel,
-                we provide them all.
-              </li>
-              <li>
-                <b>International Driver License:</b> Get your international
-                driving permit easily.
-              </li>
-              <li>
-                <b>Passport Renewal:</b> Hassle-free renewal for your passport.
-              </li>
-              <li>
-                <b>Flight Tickets:</b> Convenient booking for your next journey.
-              </li>
-            </ul>
-          </p>
-          <p style={{marginTop:"20px"}}>
-            Under the leadership of our CEO, Mr. Shahnawaz Shaik, we offer a
-            comprehensive range of services, including hotel bookings, tailored
-            travel packages, insurance, and visa services for medical, tourism,
-            and business purposes. Our mission is to ease your travels and
-            ensure that every journey is a memorable one.
+            Our agency, established in February 2022 under the name of our CEO,
+            <span className="bold-txt"> Mrs. Eman Ali Al Sahaf</span> and led by{" "}
+            <span className="bold-txt"> Mr. Shahnawaz Shaik</span>, with 12
+            years of experience, is dedicated to making your travel experience
+            seamless and enjoyable. With branches in{" "}
+            <span className="bold-txt"> Al Khobar and Al Jubail </span> and{" "}
+            <span className="bold-txt"> Al Jubail</span>, we strive to provide
+            hassle-free solutions for all your travel needs through a
+            comprehensive range of services
           </p>
         </div>
       </div>
+
+      <h2 style={{ textAlign: "center" }}>Why Choose Us?</h2>
+      <div className="features">
+        <FeatureBox
+          icon={<MdHotel color="#3F51B5" size={60} />} // Blue for trust and reliability
+          title="Hotel Bookings"
+          description="Handpicked accommodations to match your style and budget."
+        />
+
+        <FeatureBox
+          icon={<MdExplore color="#4CAF50" size={60} />} // Green for exploration and adventure
+          title="Custom Travel Packages"
+          description="Designed to suit both leisure and business travelers."
+        />
+
+        <FeatureBox
+          icon={<MdSecurity color="#F44336" size={60} />} // Red for protection and peace of mind
+          title="Trusted Travel Insurance"
+          description="Ensuring peace of mind every step of the way."
+        />
+
+        <FeatureBox
+          icon={<MdWork color="#FFC107" size={60} />} // Yellow for services like visas and business travel
+          title="Visa Services"
+          description="For medical, tourism, students, and business travel, we provide them all."
+        />
+
+        <FeatureBox
+          icon={<MdDriveEta color="#009688" size={60} />} // Teal for mobility and driving
+          title="International Driver License"
+          description="Get your international driving permit easily."
+        />
+
+        <FeatureBox
+          icon={<MdAssignment color="#673AB7" size={60} />} // Purple for documentation like passports
+          title="Passport Renewal"
+          description="Hassle-free renewal for your passport."
+        />
+
+        <FeatureBox
+          icon={<MdFlight color="#FF5722" size={60} />} // Orange for flights and travel
+          title="Flight Tickets"
+          description="Convenient booking for your next journey."
+        />
+      </div>
+
+      <p style={{ textAlign: "Center", marginBottom: "40px" }}>
+        Our mission is to ease your travels and ensure that every journey is a
+        memorable one.
+      </p>
     </div>
   );
 }

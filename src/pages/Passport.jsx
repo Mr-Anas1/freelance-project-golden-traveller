@@ -8,11 +8,16 @@ import {
   MdVerified,
   MdHeadsetMic,
 } from "react-icons/md";
+import { useEffect } from "react";
 
 function Passport() {
   const openWhatsapp = () => {
     window.location.href = "https://wa.me/+966";
   };
+
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <div className="passport">
       <div className="passport-container">

@@ -8,8 +8,12 @@ import {
   MdHeadsetMic,
 } from "react-icons/md";
 import FeatureBox from "../components/FeatureBox";
+import { useEffect } from "react";
 
 function Hotel() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <div className="hotel">
       <div className="hotel-container">

@@ -8,8 +8,12 @@ import {
   MdVerified,
   MdHeadsetMic,
 } from "react-icons/md";
+import { useEffect } from "react";
 
 function Insurance() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
   return (
     <div className="insurance">
       <div className="insurance-content">

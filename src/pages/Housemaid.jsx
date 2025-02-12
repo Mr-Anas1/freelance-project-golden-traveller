@@ -2,11 +2,15 @@ import React from "react";
 import BookingCTA from "../components/BookingCTA";
 import FeatureBox from "../components/FeatureBox";
 import { MdGavel, MdTune, MdWork, MdChecklist } from "react-icons/md";
+import { useEffect } from "react";
 
 function Housemaid() {
   const openWhatsapp = () => {
     window.location.href = "https://wa.me/+966";
   };
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  });
 
   return (
     <div className="housemaid">

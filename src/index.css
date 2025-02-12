@@ -340,6 +340,8 @@ html {
 	width: 100%;
 }
 
+
+
 @media (max-width: 768px) {
 	.about-container {
 		flex-direction: column-reverse;
@@ -353,7 +355,6 @@ html {
 
 	.about-left img {
 		width: 100%;
-		max-width: 80%;
 	}
 
 	.about-right h1 {
@@ -383,7 +384,6 @@ html {
 
 	.about-left img {
 		width: 100%;
-		max-width: 80%;
 	}
 
 	.about-right h1 {
@@ -426,7 +426,7 @@ html {
 	justify-content: space-between;
 	width: 100%;
 	max-width: 1200px;
-	box-shadow: 0px 10px 10px 10px rgb(185, 185, 185);
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
 	border-radius: 10px;
 }
 
@@ -540,7 +540,7 @@ button:hover {
 	align-items: center;
 	flex-direction: column;
 	margin: 0 auto;
-	width: 50%;
+	width: 80%;
 	margin-bottom: 20px;
 }
 
@@ -584,7 +584,7 @@ button:hover {
 }
 
 .customer-logo {
-	width: 100px;
+	width: 150px;
 	height: auto;
 	object-fit: contain;
 }
@@ -607,7 +607,7 @@ button:hover {
 	transform: translateY(-100%);
 }
 
-/*! Footer  */
+/* Footer  */
 
 /* src/components/Footer.css */
 .footer {
@@ -946,7 +946,6 @@ button:hover {
 	display: flex;
 	justify-content: center;
 	flex-direction: column;
-
 }
 
 
@@ -1112,6 +1111,49 @@ p {
 	color: #ffffff;
 }
 
+.transfer {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	height: calc(100vh - 80px);
+}
+
+.transfer h1 {
+	margin: 20px 10px;
+	text-align: center;
+}
+
+/* About-Us */
+
+.about-us {
+	padding: 80px;
+	box-sizing: border-box;
+}
+
+.about-us span {
+	font-weight: bolder;
+}
+
+.about-para {
+	font-size: 18px;
+	line-height: 1.4;
+	text-align: start;
+}
+
+.about-container {
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 60px;
+}
+
+.about-container .about-left {
+	flex: 1;
+}
+
+.about-container .about-right {
+	flex: 1;
+}
+
 @media screen and (max-width: 1280px) {
 	.corporate-introBox h1 {
 		font-size: 44px;
@@ -1132,6 +1174,17 @@ p {
 	.corporate-introBox .corporate-introBox-content .corporate-introBox-title {
 		text-align: center;
 	}
+
+	.corporate-introBox-content {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		flex-direction: column;
+	}
+
+	.about-us .about-left img {
+		margin-top: 30px;
+	}
 }
 
 @media screen and (max-width: 768px) {
@@ -1145,5 +1198,27 @@ p {
 
 	.booking-form textarea {
 		padding: 10px;
+	}
+
+	.about-us {
+		padding: 30px;
+	}
+
+	.about-us .about-left img {
+		max-width: 100%;
+	}
+
+	.service-container {
+		padding: 60px !important;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.about-us {
+		padding: 0px;
+	}
+
+	.service-container {
+		padding: 20px !important;
 	}
 }
