@@ -41,7 +41,7 @@ function AboutUs() {
             <span className="bold-txt"> Mr. Shahnawaz Shaik</span>, with 12
             years of experience, is dedicated to making your travel experience
             seamless and enjoyable. With branches in{" "}
-            <span className="bold-txt"> Al Khobar and Al Jubail </span> and{" "}
+            <span className="bold-txt"> Al Khobar </span> and{" "}
             <span className="bold-txt"> Al Jubail</span>, we strive to provide
             hassle-free solutions for all your travel needs through a
             comprehensive range of services

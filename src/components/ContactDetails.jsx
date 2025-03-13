@@ -2,7 +2,7 @@
 
 function ContactDetails() {
   const openWhatsapp = () => {
-    window.location.href = "https://wa.me/+966";
+    window.location.href = "https://wa.me/+966559874003";
   };
   return (
     <div className="contact-details">

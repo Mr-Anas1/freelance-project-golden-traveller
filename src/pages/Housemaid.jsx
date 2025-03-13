@@ -6,7 +6,7 @@ import { useEffect } from "react";
 
 function Housemaid() {
   const openWhatsapp = () => {
-    window.location.href = "https://wa.me/+966";
+    window.location.href = "https://wa.me/+966559874003 ";
   };
   useEffect(() => {
     window.scrollTo({ top: 0, behavior: "smooth" });

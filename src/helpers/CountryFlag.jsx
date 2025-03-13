@@ -7,7 +7,6 @@ const CountryFlag = ({ countryCode }) => {
   useEffect(() => {
     const loadFlag = async () => {
       try {
-        // Lazy-load only the required flag
         const flagFile = await import(
           `../helpers/svg/${countryCode.toLowerCase()}.svg`
         );
@@ -27,7 +26,12 @@ const CountryFlag = ({ countryCode }) => {
   return flagSrc ? (
     <div
       className="countryBox"
-      style={{ display: "flex", alignItems: "center", gap: "10px" }}
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        gap: "10px",
+      }}
     >
       <img
         className="countryImage"

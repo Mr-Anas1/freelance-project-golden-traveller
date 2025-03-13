@@ -48,7 +48,6 @@ export const loadFlags = async () => {
     PH: "Philippines",
     PL: "Poland",
     PT: "Portugal",
-    RO: "Romania",
     RU: "Russia",
     SG: "Singapore",
     ZA: "South Africa",
@@ -72,6 +71,19 @@ export const loadFlags = async () => {
     VE: "Venezuela",
     VN: "Vietnam",
     YE: "Yemen",
+    HR: "Croatia",
+    EE: "Estonia",
+    IS: "Iceland",
+    LV: "Latvia",
+    LI: "Liechtenstein",
+    LT: "Lithuania",
+    LU: "Luxembourg",
+    MT: "Malta",
+    SK: "Slovakia",
+    SI: "Slovenia",
+    PE: "Peru",
+    CO: "Colombia",
+    RS: "Serbia",
   };
 
   const flagFiles = import.meta.glob("../helpers/svg/*.svg");

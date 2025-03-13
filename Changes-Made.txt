@@ -1,0 +1,19 @@
+1. Removed the dropdown from the home page
+2. Made the navbar links to bold
+3. Added the map link
+4. Added the required services
+5. Visa services page completed
+    Made the page like flag is shown along with the name of the country and when user clicks it it'll take them to a separate page with the visa requirements as the client asked for.
+    Added the CTA button and also added a small hover effect
+6. Completed the flight tickets booking page, made it look like the one (atlastravel.com) client asked. And also added the CTA button which takes them to the mail.
+7. Hotel Page done.
+8.Travel Insurance page done but the logos of insurance partners are didn't provided so I could add them to it.
+9. Driver license and passport renewal page completed
+8. Housemaid page done
+9. Corporate page completed
+10. Transfer page completed
+11. Worked on the about us page, I split it into two sections first one if for the image and general info about the company and the second one is for the section What we offer. made the image more aligned.
+12. The logos on the customer page fixed. 
+13. Added the whatsapp link at the contact details.
+
+Let us know if you need further changes or add anything
